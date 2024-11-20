@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0;
+    color: #ff69b4;
+}
+
+.header {
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro, .photo-gallery, .message-form {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+#messages {
+    margin-top: 20px;
+    color: #800040;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 10px;
+}
